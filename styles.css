@@ -1,0 +1,86 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: #FFFFFF
+    margin: 3px;
+    padding: 20px;
+  }
+  form {
+    background-color: #82CAFA;
+    padding: 30px;
+    border: 3px solid #9E4244;
+    border-radius: 20px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  h1 {
+    color: #466D1D;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+  }
+  label {
+    color: #000000;
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 500;
+    padding: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 3px solid #3D2022;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  form label {
+    display: block;
+    margin: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+    border: 1px solid #FF0000;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #E11584;
+  }
+
+  input[type="reset"] {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+    border: 1px solid #FF0000;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 40%;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #E11584;
+  }
+  
+  div {
+    width: 200px;
+    padding: 20px;
+    border: none;
+    margin: 30px;
+  }
+
+  footer {
+    background-color: none;
+    padding: 10px;
+    color: #000000;
+    position: bottom;
+    width: 90%;
+    text-align: center;
+  }
+  
